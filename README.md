@@ -41,7 +41,6 @@ The pipeline covers the full quant workflow:
 ├── requirements.txt
 └── README.md
 
-text
 
 ---
 
@@ -52,13 +51,11 @@ text
 git clone https://github.com/yourusername/mean-reversion-quant-pipeline.git
 cd mean-reversion-quant-pipeline
 
-text
 
 ### 2. Install dependencies
 
 pip install -r requirements.txt
 
-text
 
 ### 3. Configure your strategy
 
@@ -68,19 +65,16 @@ Edit `config.yaml` to set your assets, dates, and strategy parameters.
 
 python main.py --plot
 
-text
 
 Or, for interactive mode (no arguments):
 
 python main.py
 
-text
 
 ### 5. Export results
 
 python main.py --export results.csv
 
-text
 
 ---
 
@@ -104,7 +98,6 @@ exit_zscore: 0.5
 max_position_size: 0.2
 transaction_cost: 0.0005
 
-text
 
 Override any parameter via command line, e.g.:
 
@@ -141,3 +134,6 @@ text
   - matplotlib
   - seaborn
   - pyyaml
+
+**Happy trading!**
+
