@@ -1,0 +1,14 @@
+assets:
+  - AAPL
+  - MSFT
+  - GOOG
+  - AMZN
+  - TSLA
+start_date: '2018-01-01'
+end_date: '2023-01-01'
+initial_capital: 100000
+lookback_window: 20
+entry_zscore: 1.0
+exit_zscore: 0.5
+max_position_size: 0.2
+transaction_cost: 0.0005
