@@ -82,12 +82,7 @@ python main.py --export results.csv
 
 All parameters are set in `config.yaml`:
 
-assets:
-
-AAPL
-
-MSFT
-
+assets: AAPL, MSFT, 
 GOOG
 start_date: '2018-01-01'
 end_date: '2023-01-01'
@@ -98,12 +93,10 @@ exit_zscore: 0.5
 max_position_size: 0.2
 transaction_cost: 0.0005
 
-
 Override any parameter via command line, e.g.:
 
 python main.py --assets TSLA NVDA --start_date 2020-01-01 --end_date 2023-01-01
 
-text
 
 ---
 
